@@ -46,10 +46,6 @@ func removeElement(nums []int, val int) int {
         if nums[i] == val {
             return i
         }
-
-		if i == len(nums) - 1 {
-			return i + 1
-		}
 	}
 
 	return len(nums)
