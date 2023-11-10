@@ -27,9 +27,6 @@ func moveZeroes(nums []int) {
 		}
 
 		if j >= len(nums) {
-			for j := i + 1; j < len(nums); j++ {
-				nums[j] = 0
-			}
 			return
 		}
 
