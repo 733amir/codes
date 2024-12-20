@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type Sub struct {
 	count int
 	subs  []Sub
@@ -40,6 +38,3 @@ func subarrayCount(nums []int, left, right int) int {
 	return sum + (count+1)*count/2 - sub_sum
 }
 
-func main() {
-	fmt.Println("hello")
-}

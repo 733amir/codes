@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func numWays(s string) int {
 	countOfOne := 0
 	for _, c := range s {
@@ -47,9 +45,4 @@ func consecutiveZeroCount(s string) int {
 		}
 	}
 	return len(s)
-}
-
-func main() {
-	//                             f  s
-	fmt.Println(numWays("11001010011"))
 }
